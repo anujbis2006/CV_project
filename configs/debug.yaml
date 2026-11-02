@@ -1,0 +1,13 @@
+_base: base.yaml
+batch_size: 2
+epochs: 3
+image_size: 64
+patch_size: 16
+ocr_hidden_size: 64
+vlm_hidden_size: 64
+num_queries: 8
+ocr_layers: 1
+decoder_layers: 1
+num_heads: 4
+max_ocr_tokens: 8
+warmup_steps: 2

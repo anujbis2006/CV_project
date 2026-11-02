@@ -1,0 +1,3 @@
+_base: debug.yaml
+compression_type: adaptive
+adaptive_k: 4

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Project
+checkpoints/
+outputs/
+!outputs/.gitkeep
+*.log
+
+# OS
+.DS_Store
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/splits/*
+!data/splits/.gitkeep
+
+# Notebook
+.ipynb_checkpoints/

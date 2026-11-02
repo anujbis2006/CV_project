@@ -1,0 +1,3 @@
+_base: real_data.yaml
+num_queries: 64
+max_ocr_tokens: 256

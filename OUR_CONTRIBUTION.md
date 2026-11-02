@@ -1,0 +1,3 @@
+# Our proposed extension: adaptive question-aware query compression
+
+Original DocVLM keeps a fixed number of learned query states. Our proposed extension scores candidate query states using a pooled question representation and retains Top-K states before projection. The hypothesis is that question-conditioned selection can reduce prefix tokens while retaining question-relevant OCR information. This is an engineering proposal, not a claim of scientific novelty or a demonstrated improvement. Its implementation is `src/models/adaptive_query_compression.py`; meaningful results require controlled evaluation on real data.

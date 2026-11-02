@@ -1,0 +1,5 @@
+_base: local_debug.yaml
+data_dir: data/docvqa
+dataset_name: docvqa
+batch_size: 1
+max_ocr_tokens: 64

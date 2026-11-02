@@ -1,0 +1,14 @@
+# Faithful reference from paper/supplement; requires external pretrained weights and GPUs.
+num_queries: 64
+compression_type: fixed
+ocr_backbone: DocFormerV2 encoder, pretrained on IDL; visual branch omitted
+vlm_backbone: frozen LLaVA-OneVision / InternVL2 / Qwen2-VL
+stage_1_steps: 140000
+stage_1_ocr_freeze_steps: 10000
+stage_2_steps: 100000
+optimizer: AdamW
+scheduler: cosine
+warmup_steps: 1000
+query_projection_lr: 0.0001
+ocr_lr: 0.00005
+stage_2_lr: 0.000005

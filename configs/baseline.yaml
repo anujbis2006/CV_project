@@ -1,0 +1,7 @@
+_base: debug.yaml
+# [BASELINE / PAPER IMPLEMENTATION] — fixed-query path only.
+model_type: baseline
+compression_type: fixed
+num_queries: 64
+adaptive_queries: false
+question_aware_selection: false

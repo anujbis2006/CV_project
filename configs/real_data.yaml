@@ -1,0 +1,7 @@
+_base: base.yaml
+dataset_name: docvqa
+data_dir: data/docvqa
+compression_type: fixed
+freeze_vlm: true
+epochs: 1
+# Requires prepared, licensed DocVQA JSONL manifests and compatible pretrained backbones.

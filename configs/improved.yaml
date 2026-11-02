@@ -1,0 +1,10 @@
+_base: debug.yaml
+# [IMPROVED / OUR PROPOSED EXTENSION] — question-aware adaptive selection.
+model_type: improved
+compression_type: adaptive
+num_queries: 64
+adaptive_queries: true
+question_aware_selection: true
+min_queries: 8
+max_queries: 64
+adaptive_k: 16
